@@ -1,10 +1,10 @@
 
-# Cab Booking System
+# Cab Allocation System
 ### Link: https://cab-booking2.onrender.com/
-### CU x Scaler | SDE Internship Assignment | Md Mehran Akhtar | 20BCS7123 | mehran.akhtar88@gmail.com
+### Moveinsync |  Assignment | Farhan Haider | IE2021020 | haiderfarhan671@gmail.com
 ## Authors
 
-- [@Mehran Akhtar](https://www.github.com/mehran236)
+- [@Farhan Haider](https://www.github.com/farhanhaider624)
 
 This project is a cab booking web application built using React and Tailwind CSS. The aim of the project is to provide a platform for users to book a cab from a source location to a destination location while being able to select from a variety of cabs with different pricing options. The application calculates the shortest possible time and the estimated cost of the ride based on the cab selected and the distance between the source and destination. The web application also allows for the tracking of cab bookings, and users can view and edit the available cabs and their pricing. The application is designed to be responsive and user-friendly, making it easy for users to navigate and book their rides. The project has been developed with modularity and code quality in mind, ensuring that the application is easy to maintain and update in the future.
 
@@ -52,31 +52,10 @@ EmailJs -> For sending emails to users.
 ### 5. Confirmation Message
 ![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015858.jpg?raw=true)
 
-### 6. Email
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015957.jpg?raw=true)
 
-### 7. Track Booking
+### 6. Track Booking
 All bookings from a particular email will be shown.
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020225.jpg?raw=true)
 
 ### 8. Admin Dashboard
 ![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020314.jpg?raw=true)
 
-### 9. Editing Cab-Details
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020434.jpg?raw=true)
-
-Following things are edited, shown below.
-* Sedan Cab-> Sedan Cab-v1.0
-* rate: ₹0.79-> ₹0.52
-* Time to Arrive: 6->4
-
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020521.jpg?raw=true)
-
-### 10. DataBase (MongoDb Atlas)
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020716.jpg?raw=true)
-
-### 11. E-Mail Service
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020757.jpg?raw=true)
-
-### 12. Deployment (Render)
-![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020859.jpg?raw=true)
