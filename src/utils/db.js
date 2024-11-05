@@ -1,3 +1,4 @@
+import axios from "axios";
 export const myLocations = [
     "New Delhi",
     "Central Secretariat",
@@ -83,6 +84,19 @@ export const cabs = [
     }
 ];
 
+export async function saveMyLocations() {
+  try {
+    const response = await axios.post(
+      "http://localhost:5500/api/save-locations",
+      {
+        locations: myLocations,
+      }
+    );
+    console.log("Locations saved:", response.data);
+  } catch (error) {
+    console.error("Failed to save locations:", error);
+  }
+}
 
 export function getMatrix(locations, distances) {
     const matrix = [];

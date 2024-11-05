@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 
-mongoose.connect(
-  "mongodb+srv://khanfh04042020:Farhan123@cluster0.0let8.mongodb.net/cab_central?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(process.env.MONGO_URI, {
+  ssl: true,
+  tls: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const db = mongoose.connection;
 

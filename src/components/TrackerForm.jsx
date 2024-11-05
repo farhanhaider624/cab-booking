@@ -6,7 +6,7 @@ export default function TrackerForm({email, setEmail, setShowBookings, setBookin
     const fetchBookings = async (email) => {
         try {
             console.log('I am here->email is', email);
-            const result = await axios.get('https://cab-system-api-ni85.onrender.com/api/bookings', { params: {email} });
+            const result = await axios.get('http://localhost:5500/api/bookings', { params: {email} });
             console.log('I am here 2');
             setBookings(result.data);
             setShowBookings(true);
