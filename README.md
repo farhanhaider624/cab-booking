@@ -17,8 +17,6 @@ This project is a cab booking web application built using React and Tailwind CSS
 * Node.js
 * Express.js
 
-## Deployed On:
-Render
 ## API Used
 EmailJs -> For sending emails to users.
 
