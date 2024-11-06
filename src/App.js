@@ -23,7 +23,7 @@ function App() {
       </main>
 
       <div className="mt-auto">
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
