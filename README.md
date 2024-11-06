@@ -1,6 +1,5 @@
 
 # Cab Allocation System
-### Link: https://cab-booking2.onrender.com/
 ### Moveinsync |  Assignment | Farhan Haider | IE2021020 | haiderfarhan671@gmail.com
 ## Authors
 
